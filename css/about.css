@@ -1,7 +1,14 @@
 body {
-    background-color: rgb(26, 26, 26);
+    background-color: black;
     color: whitesmoke;
+    background-image: url('../images/original.gif');
+    background-repeat: no-repeat;
+  background-position: center;
+  padding: 0%;
 }
+
+
+
 
 div.container
 {
@@ -31,7 +38,7 @@ div.container a
     margin: 0% auto;
 	padding: 2em;
 	text-align: center;
-    background:  rgb(26, 26, 26)
+    background: black;
 }
 
 /* Border from Y to X  */
