@@ -18,11 +18,11 @@ body {
 h4 {
   font-size: 40px;
   font-family: 'Special Elite', cursive;
-  color: cadetblue;
+  color: rgb(0, 195, 255);
 }
 
 a {
-  color:cadetblue;
+  color:rgb(0, 195, 255);
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ a {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: cadetblue;
+  color: rgb(0, 195, 255);
   font-size: 20px;
   font-family: 'Special Elite', cursive;
 }
