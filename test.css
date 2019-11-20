@@ -1,0 +1,93 @@
+html, body, #page-one, #page-two, #page-three, #page-four {
+	height:auto;
+	min-height: 100vh;
+}
+
+#page-two {background-color:#ccc;}
+#page-three {background-color:#aaa;}
+#page-four {background-color:#888;}
+
+
+/* Everything on page-one */
+#page-one {
+  background-color: black;
+  background-image: url('../images/source.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25%;
+  background-size: 600px 600px;
+  text-align: center;
+  padding-top: 3em;
+  font-size: 3em;
+  color: cyan;
+  font-family: 'Special Elite', cursive;
+  
+}
+.blockquote {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: cyan;
+  font-size: 20px;
+  font-family: 'Special Elite', cursive;
+}
+#mainNav {
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  line-height: 4em;
+  padding: 0 1em;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+}
+
+#mainNav a, #mainNav a:link, #mainNav a:visited, #mainNav a:hover, #mainNav a:active {
+  color: cyan;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1em;
+}
+#mainNav a:hover {
+  color:whitesmoke;
+}
+/**************************************************************************************/
+/* Everything on page-two */
+#page-two {
+  background-color: black;
+  background-image: url('../images/original.gif');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* moves the raining colors down */
+  padding: 10%;
+  background-size: 650px 650px;
+  text-align: center;
+  padding-top: 2em;
+  font-family: 'Special Elite', cursive;
+  font-size: 3em;
+  color: cyan;
+}
+
+h5 {
+  font-family: 'Special Elite', cursive;
+  font-size: 28px;
+  color: aliceblue;
+  text-align: justify;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+h2 {font-size:3em; padding-top:1em; text-align:center;}
+
+
+ #page-three, #page-four {padding-top:2em;}
+
+ 
