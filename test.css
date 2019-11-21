@@ -11,7 +11,7 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 /* Everything on page-one */
 #page-one {
   background-color: black;
-  background-image: url('../images/source.gif');
+  background-image: url('./images/giphy.gif');
   background-repeat: no-repeat;
   background-position: center;
   padding: 25%;
@@ -55,7 +55,7 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 /* Everything on page-two */
 #page-two {
   background-color: black;
-  background-image: url('../images/original.gif');
+  background-image: url('./original.gif');
   background-repeat: no-repeat;
   background-position: top center;
   /* moves the raining colors down */
@@ -75,6 +75,38 @@ h5 {
   text-align: justify;
   margin-right: 150px;
   margin-left: 80px;
+}
+
+/* skills section */
+
+.column {
+  float: center;
+  width: 15%;
+  padding: 0 0px;
+}
+
+.row {
+  margin: 15px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+  left: 80%;
+  background-color: #000000;
+  color: cyan;
+  
 }
 
 
