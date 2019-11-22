@@ -83,11 +83,9 @@ h5 {
   float: center;
   width: 15%;
   padding: 0 0px;
+  
 }
 
-.row {
-  margin: 15px;
-}
 
 /* Clear floats after the columns */
 
@@ -99,11 +97,11 @@ h5 {
 
 /* Style the counter cards */
 
-.card {
+.cards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
   text-align: center;
-  left: 80%;
+  left: 0;
   background-color: #000000;
   color: cyan;
   
