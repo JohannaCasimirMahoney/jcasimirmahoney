@@ -7,14 +7,14 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 /* Everything on page-one */
 
 #page-one {
- background-image: url('./images/giphy.gif');
+  background-image: url('./images/giphy.gif');
   background-repeat: no-repeat;
   background-position: center;
   padding: 25%;
   background-size: 600px 600px;
   text-align: center;
   padding-top: 3em;
-  font-size: 3em;
+  font-size: 2.5em;
   color: cyan;
   font-family: 'Special Elite', cursive;
 }
@@ -31,7 +31,7 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 
 #mainNav {
   font-family: 'Special Elite', cursive;
-  font-size: 1.9em;
+  font-size: 1.7em;
   line-height: 4em;
   padding: 0 1em;
   position: fixed;
@@ -55,7 +55,7 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 /* Everything on page-two */
 
 #page-two {
-background-image: url('./original.gif');
+  background-image: url('./original.gif');
   background-repeat: no-repeat;
   background-position: top center;
   /* moves the raining colors down */
@@ -64,7 +64,7 @@ background-image: url('./original.gif');
   text-align: center;
   padding-top: 3em;
   font-family: 'Special Elite', cursive;
-  font-size: 3em;
+  font-size: 2.7em;
   color: cyan;
 }
 
@@ -112,15 +112,15 @@ h5 {
 
 #page-three {
   text-align: center;
-  padding-top: 3em;
-  font-size: 3em;
+  padding-top: 2em;
+  font-size: 2.5em;
   color: cyan;
   font-family: 'Special Elite', cursive;
 }
 
 .con-tainer {
   width: 95vw;
-  height: 100vh;
+  height: 88vh;
   display: flex;
   flex-flow: row;
   perspective-origin: center;
@@ -314,22 +314,23 @@ h4 {
 /**************************************************************************************/
 
 /* Everything on page-four */
+
 #page-four {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 4em;
   font-size: 3em;
   color: cyan;
   font-family: 'Special Elite', cursive;
 }
 
-/* *{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Special Elite', cursive;
   box-sizing: border-box;
-} */
+}
 
-.contact-info {
+/* .contact-info {
   display: flex;
   width: 55%;
   margin: auto;
@@ -337,26 +338,26 @@ h4 {
   max-width: 800px;
   align-items: center;
   font-size: 18px;
-  /* padding: 0 50px; */
+  padding: 0 50px;
   
-}
+} */
 
-.cards {
+/* .cards {
   padding: 0 50px;
   margin: 0 5px;
   width: calc(33% - 20px);
   height: 155px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-  background: rgb(66, 61, 61);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: rgb(0, 0, 0);
   color: cyan;
   cursor: pointer;
-}
+}  */
 
-.card-icon {
+/* .card-icon {
   font-size: 25px;
   background: black;
   width: 60px;
@@ -365,53 +366,90 @@ h4 {
   line-height: 60px !important;
   border-radius: 25%;
   transition: 0.3s linear;
-}
+} */
 
-.cards:hover .card-icon {
+/* .cards:hover .card-icon {
   background: none;
   color:  cyan;
   transform: scale(1.6);
-}
+} */
 
-.cards p{
+/* .cards p{
   margin-top: 10px;
   font-weight: 300;
   letter-spacing: 2px;
   max-height: 0;
   opacity: 0;
   transition: 0.3s linear;
-}
+} */
 
-.cards:hover p{
+/* .cards:hover p{
   max-height: 40px;
   opacity: 1;
 
-}
+} */
 
-img {
+/* img {
   border-radius: 8px;
   max-width: 100%;
   height: auto;
+} */
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(7, 236, 225, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.title {
+  color: grey;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(141, 160, 34);
+}
+
+#fab a, #fab a:link, #fab a:visited, #fab a:hover, #fab a:active {
+  color: rgb(141, 160, 34);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 .1em;
+  font-size: 32px;
+}
+
+#fab a:hover {
+  color: cyan;
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
 }
 
 .footer {
   text-align: center;
-  font-size: 18px;
+  font-size: 13px;
   color: cyan;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
 }
 
-
-
 /* Responsive columns */
+
 @media screen and (max-width:800px) {
-  .contacts-info{
+  .contacts-info {
     flex-direction: column;
   }
-  .cards{
+  .cards {
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
