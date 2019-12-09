@@ -79,7 +79,31 @@ h5 {
   font-family: 'Special Elite', cursive;
 }
 
-.con-tainer {
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* .con-tainer {
   width: 95vw;
   height: 88vh;
   display: flex;
@@ -270,7 +294,7 @@ h4 {
   opacity: 1;
   transform: translateX(3px);
   animation: slideRight 300ms ease;
-}
+} */
 
 #contact {
   text-align: center;
